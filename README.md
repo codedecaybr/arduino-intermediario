@@ -8,8 +8,8 @@ Aqui você encontra os códigos desenvolvidos durante a aula, respostas para os 
 
 ## Recursos para a turma intermediária
 
-* [Referência da U8glib](https://github.com/olikraus/u8glib/wiki)
-* [Lista de Fontes](https://github.com/olikraus/u8glib/wiki/fontsize)
+* [Referência da U8g2](https://github.com/olikraus/u8g2/wiki/u8g2reference)
+* [Lista de Fontes](https://github.com/olikraus/u8g2/wiki/fntlistall)
 * [Download do GIMP Portátil](https://goo.gl/OpWxnW)
 
 ## Exercícios
