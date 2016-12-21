@@ -9,17 +9,17 @@
 
 == Passo 1: Instalação
 
-1. Abra o arquivo Ex3.ino na Arduino IDE
+1. Abra o arquivo Ex6.ino na Arduino IDE
 2. Instale a biblioteca Sodaq_DS3231 através do gerenciador de bibliotecas
 3. Instale a biblioteca U8g2 através do gerenciador de bibliotecas
 
 == Passo 2: Montagem do circuito
 
-Faça a montagem do RTC conforme o diagrama:
+1. Faça a montagem do RTC conforme o diagrama:
 
 image::rtc-schm.png[Montagem do RTC]
 
-Faça a montagem do OLED conforme o diagrama:
+2. Faça a montagem do OLED conforme o diagrama:
 
 image::oled-schm.png[Montagem do RTC]
 
@@ -52,7 +52,7 @@ Para contribuir com este projeto, entre em contato com {Author} <{Email}>
 | U1 | Módulo RTC DS3231        | 1
 | U2 | Display OLED 0.96" I2C   | 1
 | A1 | Arduino UNO              | 1
-| J1 | Jumper macho-macho       | 8        
+| J1 | Jumper macho-macho       | 8
 |===
 
 
