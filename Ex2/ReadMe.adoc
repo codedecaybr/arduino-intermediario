@@ -41,13 +41,13 @@ Para contribuir com este projeto, entre em contato com {Author} <{Email}>
 
 |===
 | ID | Nome do componente  | Quantidade
-| U1 | Módulo RTC DS3231   | 1       
-| A1 | Arduino UNO         | 1        
-| J1 | Jumper macho-macho  | 4        
+| U1 | Módulo RTC DS3231   | 1
+| A1 | Arduino UNO         | 1
+| J1 | Jumper macho-macho  | 4
 |===
 
 
 === Help
-This document is written in the _AsciiDoc_ format, a markup language to describe documents. 
+This document is written in the _AsciiDoc_ format, a markup language to describe documents.
 If you need help you can search the http://www.methods.co.nz/asciidoc[AsciiDoc homepage]
 or consult the http://powerman.name/doc/asciidoc[AsciiDoc cheatsheet]
