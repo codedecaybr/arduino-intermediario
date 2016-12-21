@@ -2,7 +2,6 @@
   www.CodeDecay.com.br
   Licença de uso: Apache 2.0
   Sketch baseado no exemplo 'ajust' da biblioteca Sodaq_DS3231
-
   Neste exercício vamos fazer a configuração inicial do RTC, ajustando
   o relógio para a data e hora atuais.
  */
@@ -25,8 +24,7 @@ void setup ()
 }
 
 // A função loop lê o RTC e envia para a porta serial o horário atual
-void loop ()
-{
+void loop () {
     DateTime agora = rtc.now(); // Inicializa o objeto do tipo DateTime chamado 'agora' e lê o horário do RTC
     Serial.print(agora.date());
     Serial.print('/');
