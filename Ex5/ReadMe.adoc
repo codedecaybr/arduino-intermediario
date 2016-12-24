@@ -7,6 +7,8 @@
 
 = Projeto: {Project}
 
+Neste exercício vamos acrescentar uma figura ao display.
+
 == Passo 1: Instalação
 
 1. Abra o arquivo Ex5.ino na Arduino IDE
@@ -51,7 +53,7 @@ Para contribuir com este projeto, entre em contato com {Author} <{Email}>
 | U1 | Módulo RTC DS3231        | 1
 | U2 | Display OLED 0.96" I2C   | 1
 | A1 | Arduino UNO              | 1
-| J1 | Jumper macho-macho       | 8
+| J1 | Jumper macho-macho       | 10
 |===
 
 

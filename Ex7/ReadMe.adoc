@@ -1,17 +1,17 @@
-:Project: Animação de figuras e outros elementos
+:Project: Animação do relógio analógico
 :Author: Douglas Navarro e Renan Yuri Lino
 :Email: contato@codedecay.com.br
-:Date: 21/12/2016
+:Date: 24/12/2016
 :Revision: 2.1
 :License: Apache 2.0
 
 = Projeto: {Project}
 
-Neste exercício vamos animar uma figura no display.
+Neste exercício vamos substituir o relógio digital por um relógio analógico.
 
 == Passo 1: Instalação
 
-1. Abra o arquivo Ex6.ino na Arduino IDE
+1. Abra o arquivo Ex7.ino na Arduino IDE
 2. Instale a biblioteca Sodaq_DS3231 através do gerenciador de bibliotecas
 3. Instale a biblioteca U8g2 através do gerenciador de bibliotecas
 
@@ -33,9 +33,7 @@ image::oled-schm.png[Montagem do RTC]
 
 ....
  Ex6                    => Pasta do sketch Arduino
-  ├── Ex6.ino           => Arquivo principal do sketch
-  ├── pusheen.h         => Figura da gata Pusheen no formato XBM
-  ├── pusheen_flip.h    => Figura da gata Pusheen invertida no formato XBM
+  ├── Ex7.ino           => Arquivo principal do sketch
   ├── rtc-schm.png      => Esquemático do RTC
   ├── oled-schm.png     => Esquemático do OLED
   └── ReadMe.adoc       => Este arquivo

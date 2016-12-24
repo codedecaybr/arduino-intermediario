@@ -7,6 +7,8 @@
 
 = Projeto: {Project}
 
+Neste exercício vamos aprender a ler as informações guardadas pelo RTC.
+
 == Passo 1: Instalação
 
 1. Abra o arquivo Ex2.ino na Arduino IDE
@@ -43,7 +45,7 @@ Para contribuir com este projeto, entre em contato com {Author} <{Email}>
 | ID | Nome do componente  | Quantidade
 | U1 | Módulo RTC DS3231   | 1
 | A1 | Arduino UNO         | 1
-| J1 | Jumper macho-macho  | 4
+| J1 | Jumper macho-macho  | 6
 |===
 
 
