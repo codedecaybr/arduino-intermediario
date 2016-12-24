@@ -7,7 +7,9 @@
 = Bibliotecas de Figuras XBMP
 
 As figuras deste diretório foram, em sua maioria, extraídas de stickers do aplicativo Telegram e convertidas para o formato XBM com o auxílio do GIMP.
+
 Cada um dos arquivos está acompanhado do seu respectivo .jpg para visualização prévia.
+
 Todos os arquivos são compatíveis com a biblioteca U8G2 para controle de displays.
 
 == Como usar?
