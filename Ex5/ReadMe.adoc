@@ -46,7 +46,7 @@ Este projeto está publicado com a licença {License}.
 === Contribuindo
 Para contribuir com este projeto, entre em contato com {Author} <{Email}>
 
-=== BOM
+=== Lista de Materiais
 
 |===
 | ID | Nome do componente       | Quantidade

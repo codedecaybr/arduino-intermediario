@@ -10,14 +10,6 @@
 #include <U8x8lib.h>
 #include <math.h> //para as operações com ângulos
 
-// Arquivos das figuras
-#include "pusheen.h"
-#include "pusheen_flip.h"
-
-String hora; // Esta string (uma sequencia especial de caracteres) sera utilizada para armazenar nosso horario
-String temperatura; // Esta string (uma sequencia especial de caracteres) sera utilizada para armazenar a temperatura
-int conta_frame = 0;
-
 U8G2_SSD1306_128X64_NONAME_F_HW_I2C oled(U8G2_R0);  // Declara o nosso display OLED.
 
 void setup() {
@@ -35,8 +27,6 @@ void loop() {
     //Envia os desenhos para o display
     oled.sendBuffer();
 
-    conta_frame = conta_frame + 1;
-    if ( conta_frame > 1) conta_frame = 0;
 
     delay(500);
 
@@ -96,8 +86,7 @@ void draw() {
     oled.drawLine( x0, y0, x0 + raio*sin(posicao), y0 - raio*cos(posicao) );
 
     oled.setFont(u8g2_font_helvB14_tf); // Seleciona a fonte Helvetica Bold tamanho 14
-    oled.setCursor(75, 32-14); // Posiciona o cursor de texto na coordenada (10,20)
+    oled.setCursor(75, 32-14); // Posiciona o cursor de texto na coordenada (75,18)
     oled.print( String( agora.hour() ) + "h" + String( agora.minute() ) );
-
 
 }
