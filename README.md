@@ -20,6 +20,8 @@ Aqui você encontra os códigos desenvolvidos durante a aula, respostas para os 
 * Ex4: Inserção de hora e temperatura no display
 * Ex5: Inserção de figura no relógio digital
 * Ex6: Animação de figuras e outros elementos
+* Ex7: Relógio analógico [dev]
+* Ex8: Ampulheta [dev]
 * Pasta figuras: biblioteca de figuras pré-convertidas para XBMP
 
 ## Outros cursos
